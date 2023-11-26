@@ -1,0 +1,78 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.prototype {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+}
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+.blackcontact {
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.fullname {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.fullname .left1x,
+.fullname .right1x {
+    flex-basis: 48%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+.emailx,
+.leavex {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 98);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
